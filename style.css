@@ -6,6 +6,7 @@
 
 .container {
     max-width: 1200px;
+    margin: 0 auto; /* you need to put this to make your max-width in center and aligned*/
 }
 
 .hero {
