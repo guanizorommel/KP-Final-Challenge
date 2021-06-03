@@ -12,6 +12,8 @@
 .hero {
     background-color: #2E323F;
     min-height: 600px;
+    display: flex; /*requirement to align the container div into center */
+    align-items: center; /*aligns the container div into center */
 }
 
 .row {
@@ -21,4 +23,43 @@
 
 .col {
     width: 100%; /*Automatically put the Flex-items into 100% */
+    padding: 4em 2em;
 }
+
+/* .herocontent-primary {
+
+} */
+
+/* .hercontent-secondary {
+    justify-content: flex-end;
+} */
+
+.herotext-primary{
+    font-family: "Oswald", sans-serif;
+    font-size: 5.625rem;
+    line-height: 1;
+    color: #fff;
+}
+
+.herotext-secondary {
+    color: #A59678;
+}
+
+.heroparagraph {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.herobutton {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #A59678;
+    padding: .25em 1.75em;
+    border-radius: 50px;
+    margin-top: 1em;
+}
+
