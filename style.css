@@ -11,4 +11,14 @@
 
 .hero {
     background-color: #2E323F;
+    min-height: 600px;
+}
+
+.row {
+    display: flex;
+    outline: 4px solid red;
+}
+
+.col {
+    width: 100%; /*Automatically put the Flex-items into 100% */
 }
