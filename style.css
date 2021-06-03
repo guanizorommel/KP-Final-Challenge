@@ -26,14 +26,6 @@
     padding: 4em 2em;
 }
 
-/* .herocontent-primary {
-
-} */
-
-/* .hercontent-secondary {
-    justify-content: flex-end;
-} */
-
 .herotext-primary{
     font-family: "Oswald", sans-serif;
     font-size: 5.625rem;
@@ -50,6 +42,7 @@
     font-size: 1.5rem;
     line-height: 1.4;
     color: #fff;
+    margin-top: 11rem;
 }
 
 .herobutton {
