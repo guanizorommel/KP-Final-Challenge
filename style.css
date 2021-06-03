@@ -9,6 +9,10 @@
     margin: 0 auto; /* you need to put this to make your max-width in center and aligned*/
 }
 
+img {
+    max-width: 100%; /*make all image inside to a div ha a max - width of 100%, for image not to overflow */
+}
+
 .hero {
     background-color: #2E323F;
     min-height: 600px;
@@ -84,6 +88,8 @@
     margin-top: 1em;
     line-height: 1.5;
 }
+
+/*Services CSS End */
 
 
 
