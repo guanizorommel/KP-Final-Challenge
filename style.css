@@ -26,6 +26,8 @@
     padding: 4em 2em;
 }
 
+
+/*Hero CSS Start*/
 .herotext-primary{
     font-family: "Oswald", sans-serif;
     font-size: 5.625rem;
@@ -55,4 +57,33 @@
     border-radius: 50px;
     margin-top: 1em;
 }
+
+/*Hero CSS End*/
+
+/*Services CSS Start*/
+
+.section-two {
+    min-height: 400px;
+    display: flex; /*requirement to align the container div into center */
+    align-items: center; /*aligns the container div into center */
+    background-color: #e9e9eb;
+}
+
+.services-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    color: #A59678;
+    text-align: center;
+}
+
+.services-paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    color: #3B4050;
+    text-align: center;
+    margin-top: 1em;
+    line-height: 1.5;
+}
+
+
 
