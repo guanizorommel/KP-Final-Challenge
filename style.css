@@ -23,13 +23,42 @@ img {
 
 .row {
     display: flex;
-    /* outline: 4px solid red; */
+    outline: 4px solid violet;
 }
 
 .col {
     width: 100%; /*Automatically put the Flex-items into 100% */
     padding: 4em 2em;
-    /* outline: 4px solid green; */
+    outline: 4px solid blue;
+}
+
+/*Navigation CSS */
+.navcontainer {
+    background-color: #2E323F;
+    padding: 0em 2em;
+    outline: 4px solid green; 
+}
+
+.navrow {
+    padding: 1em 0em;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    outline: 4px solid red; 
+}
+
+
+.logo h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
