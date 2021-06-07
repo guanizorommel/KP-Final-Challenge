@@ -272,6 +272,13 @@ footer {
 
 /*media query*/
 
+@media (max-width: 1200px) {
+    .navcontainer {
+        padding: 0em;
+     }
+
+}
+
 @media (max-width: 1000px){
     .section-three__col-container {
         display: block;
@@ -284,6 +291,10 @@ footer {
     .section-three__col-left {
         margin: 0 auto;
         flex: 1;
+    }
+
+    .navcontainer {
+       padding: 0em;
     }
 
 }
@@ -299,6 +310,10 @@ footer {
 
     .heroparagraph {
         margin: 0 auto;
+    }
+
+    .navcontainer {
+        padding: 0em;
     }
 
 }
