@@ -23,29 +23,30 @@ img {
 
 .row {
     display: flex;
-    outline: 4px solid violet;
+    /* outline: 4px solid violet; */
 }
 
 .col {
     width: 100%; /*Automatically put the Flex-items into 100% */
     padding: 4em 2em;
-    outline: 4px solid blue;
+    /* outline: 4px solid blue; */
 }
 
 /*Navigation CSS */
 .navcontainer {
     background-color: #2E323F;
     padding: 0em 2em;
-    outline: 4px solid green; 
+    /* outline: 4px solid green;  */
 }
 
 .navrow {
-    padding: 1em 0em;
+    padding: 1em 2em;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    outline: 4px solid red; 
+    align-items: center;
+    /* outline: 4px solid red;  */
 }
 
 
@@ -59,7 +60,36 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* outline: 4px solid gold;  */
 }
+
+
+.menu li {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.signup-btn {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #A59678;
+    padding: .25em 1em;
+    border-radius: 30px;
+    border: 0;
+}
+
+.signup-btn:hover {
+    color: #A59678;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
 
 
 /*Hero CSS Start*/
@@ -68,6 +98,7 @@ img {
     font-size: 5.625rem;
     line-height: 1;
     color: #fff;
+    /* outline: 4px solid yellowgreen; */
 }
 
 .herotext-secondary {
