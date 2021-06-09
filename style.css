@@ -90,6 +90,36 @@ img {
     transition: 0.5s;
 }
 
+/*Responsive Navigation Bar */
+.toggle-button {
+    position: absolute; /*make the element to position anywhere */
+    top: 1.5rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media (max-width: 658px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+
 
 
 /*Hero CSS Start*/
