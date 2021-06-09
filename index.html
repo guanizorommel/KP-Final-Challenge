@@ -30,15 +30,15 @@
                     <span class="bar"></span>
                 </a>
 
-                <nav class="menu">
+                <div class="menu">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Sign In</li>
-                        <li class="signup-btn">Sign Up</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Sign In</a></li>
+                        <li class="signup-btn"><a href="#">Sign Up</a></li>
                     </ul>
-                </nav>
+                </div>
 
 
             </div>
@@ -184,10 +184,20 @@
                             <li>consectetur</li>
                         </ul>
                     </div>
-                
+
             </div>
         </div>
+
     </footer>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const menu = document.getElementsByClassName('menu')[0]
+            
+        toggleButton.addEventListener('click', () => {
+        menu.classList.toggle('active');
+        })
+    </script>
     
 </body>
 </html>
